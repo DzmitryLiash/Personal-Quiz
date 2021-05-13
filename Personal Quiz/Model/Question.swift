@@ -19,15 +19,15 @@ extension Question {
                 text: "Какую пищу вы предпочитаете?",
                 type: .single,
                 answers: [
-                    Answer(text: "Cтейк", type: .dog),
+                    Answer(text: "Стейк", type: .dog),
                     Answer(text: "Рыба", type: .cat),
                     Answer(text: "Морковь", type: .rabbit),
-                    Answer(text: "Kукуруза", type: .turtle)
+                    Answer(text: "Кукуруза", type: .turtle)
                 ]
             ),
             Question(
                 text: "Что вам нравится больше?",
-                type: .multiply,
+                type: .multiple,
                 answers: [
                     Answer(text: "Плавать", type: .dog),
                     Answer(text: "Спать", type: .cat),
@@ -37,9 +37,9 @@ extension Question {
             ),
             Question(
                 text: "Любите ли вы поездки на машине?",
-                type: .single,
+                type: .ranged,
                 answers: [
-                    Answer(text: "Не навижу", type: .dog),
+                    Answer(text: "Ненавижу", type: .dog),
                     Answer(text: "Нервничаю", type: .cat),
                     Answer(text: "Не замечаю", type: .rabbit),
                     Answer(text: "Обожаю", type: .turtle)

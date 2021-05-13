@@ -7,6 +7,6 @@
 
 enum ResponseType {
     case single
-    case multiply
+    case multiple
     case ranged
 }
